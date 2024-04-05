@@ -7,7 +7,7 @@ author:
 format: 
   PrettyPDF-pdf:
     template-partials:
-      - title.tex
+      - _extensions/PrettyPDF/title.tex
 date: today
 date-format: long
 ---
