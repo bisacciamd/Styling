@@ -1,7 +1,18 @@
 ---
 title: "My custom Quarto template"
-format: PrettyPDF-pdf
+subtitle: "Yet another Github project"
+author:
+  - author one
+  - author two
+format: 
+  PrettyPDF-pdf:
+    template-partials:
+      - title.tex
+date: today
+date-format: long
 ---
+
+\newpage
 
 # Background
 
